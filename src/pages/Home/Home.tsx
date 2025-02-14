@@ -39,7 +39,7 @@ function Home() {
         {weatherStatus === "success" && weatherData.city && (
           <div>
             <h3>{weatherData.city}</h3>
-            <p>Temperature: {weatherData.tem}°C</p>
+            <p>Temperature: {weatherData.temp}°C</p>
             <img src={weatherData.iconUrl} alt="weather icon" />
           </div>
         )}
